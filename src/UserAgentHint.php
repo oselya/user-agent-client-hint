@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Oselya\UserAgentClientHint;
 
-readonly class UserAgentHint
+class UserAgentHint
 {
     private array $headers;
 
