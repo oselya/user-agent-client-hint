@@ -14,9 +14,9 @@ namespace Oselya\UserAgentClientHint;
  * Sec-CH-UA: " Not A;Brand";v="99", "Chromium";v="96", "Microsoft Edge";v="96"
  * Sec-CH-UA: "Opera";v="81", " Not;A Brand";v="99", "Chromium";v="95"
  */
-readonly class UserAgent
+class UserAgent
 {
-    public function __construct(private string $value)
+    public function __construct(private readonly string $value)
     {
     }
 
